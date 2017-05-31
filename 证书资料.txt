@@ -1,3 +1,11 @@
 alias: com.tianxing.wln.aat
 password: 68698017
 sha1: 03ba5b95ba36dd82a842c74b76c22daf
+
+
+<facet type="java-gradle" name="Java-Gradle">
+      <configuration>
+        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/build" />
+        <option name="BUILDABLE" value="false" />
+      </configuration>
+    </facet>
