@@ -11,7 +11,7 @@ def verCode = 14
 android {
     //渠道Flavors
     signingConfigs {
-        signingConfig  {
+        release  {
             keyAlias 'com.tianxing.wln.aat'
             keyPassword ALIAS_PASSWORD
             storeFile file('J:/GitHub/ffmpeg_player/key_zhoubin.keystore')
@@ -33,7 +33,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 25
         versionCode verCode
-        versionName APPNAME
+        versionName APP_VERSION
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
@@ -49,6 +49,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
         }
     }
     externalNativeBuild {
