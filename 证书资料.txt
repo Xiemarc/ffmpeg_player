@@ -1,0 +1,3 @@
+alias: com.tianxing.wln.aat
+password: 68698017
+sha1: 03ba5b95ba36dd82a842c74b76c22daf
