@@ -14,7 +14,7 @@ android {
         release  {
             keyAlias 'com.tianxing.wln.aat'
             keyPassword ALIAS_PASSWORD
-            storeFile file('J:/GitHub/ffmpeg_player/key_zhoubin.keystore')
+            storeFile file('key_zhoubin.keystore')
             storePassword '68698017'
         }
     }
