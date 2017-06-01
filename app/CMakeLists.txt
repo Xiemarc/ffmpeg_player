@@ -1,7 +1,7 @@
 #配置CMake的最低版本
 cmake_minimum_required(VERSION 3.4.1)
 #配置工程路径
-set(path_project J:/GitHub/ffmpeg_player)
+set(path_project G:/GitHub/ffmpeg_player)
 
 #配置头文件的包含路径
 include_directories(${path_project}/app/src/main/cpp/include)
