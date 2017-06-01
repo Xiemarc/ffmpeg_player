@@ -56,6 +56,9 @@ android {
             testCoverageEnabled true
         }
     }
+    lintOptions {
+        abortOnError false
+    }
     jacoco{
         version "0.7.4.201502262128"
     }
